@@ -8,6 +8,19 @@ def hello_world():
 
 @app.route("/add")
 def add():
-    a = int(request.args["a"])
-    b = int(request.args["b"])
-    return f"The sum is {a+b}" 
+    page = """
+    <form action=/add method=get>
+        <input name=a />
+        <input name=b />
+        <input type=submit />
+    </form> 
+    """
+
+    try:
+        a = int(request.args["a"])
+        b = int(request.args["b"])
+        page += f"<p>The sum is {a+b}</p>"
+    except:
+        pass
+
+    return page
