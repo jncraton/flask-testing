@@ -10,3 +10,18 @@ There is a section on the request object that is useful for dynamic pages
 The testing page is informative to get basic tests working:
 
 https://flask.palletsprojects.com/en/2.3.x/testing/
+
+Running Tests
+-------------
+
+Tests can be executed using:
+
+```sh
+make test
+```
+
+or
+
+```sh
+pytest
+```
