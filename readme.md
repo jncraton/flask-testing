@@ -1,8 +1,7 @@
 Flask Testing Example
 =====================
 
-<img src="https://flask.palletsprojects.com/en/stable/_static/flask-logo.svg" alt="Flask Logo" height="160" style="width:auto;">
-<img src="https://docs.pytest.org/en/stable/_static/pytest1.png" alt="Pytest Logo" height="160" style="width:auto;">
+<img src="https://flask.palletsprojects.com/en/stable/_static/flask-logo.svg" alt="Flask Logo" height="160" style="width:auto;"><img src="https://docs.pytest.org/en/stable/_static/pytest1.png" alt="Pytest Logo" height="160" style="width:auto;">
 
 The quickstart guide covers everything needed for building a basic app:
 
