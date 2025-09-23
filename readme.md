@@ -6,7 +6,7 @@ Flask Testing Example
 Overview
 --------
 
-This repository demonstrate how [Flask](https://flask.palletsprojects.com/en/stable/) project could be structured and tested using [pytest](https://docs.pytest.org/en/stable/).
+This repository demonstrates how a [Flask](https://flask.palletsprojects.com/en/stable/) project could be structured and tested using [pytest](https://docs.pytest.org/en/stable/).
 
 Resources
 ---------
@@ -15,7 +15,7 @@ The quickstart guide covers everything needed for building a basic app:
 
 https://flask.palletsprojects.com/en/stable/quickstart/
 
-There is a section on the request object that is useful for dynamic pages
+There is a section on the `request` object that is useful for dynamic pages.
 
 The testing page is informative to get basic tests working:
 
