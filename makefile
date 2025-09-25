@@ -10,3 +10,6 @@ test:
 
 run:
 	flask --app webapp/app.py run
+
+prod:
+	python3 -m gunicorn -w 4 "webapp.app:app"
